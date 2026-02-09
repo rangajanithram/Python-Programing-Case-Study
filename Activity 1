@@ -1,0 +1,176 @@
+*Python Programming Tasks:*
+
+Case Study Title:Room rent calculation (Rent = days × rent/day)	
+                 
+                 
+USN:24BCAR0486, 24BCAR0535, 24BCAR0492
+
+Name:Ranga Janith Ram, Yashwanth R, Sai Kishan N
+
+Algorithm:step 1:start
+          step 2:read the numbers of days stayed
+          step 3:read the rent per day
+          step 4:calculate total rent = days*rent per day
+          step 5:display the total rent
+          step 6:stop
+
+Code: 
+      day=int(input("enter numbers of days stayed:  "))
+      rentperday=float(input("enter the rent per day: "))
+      totalrent=days * rentperday
+      print("total room rent = ",totalrent)
+
+
+Output:enter number of days stayed: 5
+       enter rent per day: 800
+       total room rent = 4000
+
+
+//////////////////////////////////////////////////////////////////////////
+
+**Python Programming Tasks:**
+
+Case Study Title:
+                 Railway waiting list decision	
+                
+                 
+USN:24BCAR0486, 24BCAR0535, 24BCAR0492
+
+Name:Ranga Janith Ram, Yashwanth R, Sai Kishan
+
+Algorithm:
+1. start the program
+
+2.Read total number of seats
+
+3.Read number of seats already booked
+
+4.Read number of tickts requested
+
+5.Calculate available seats
+
+6.If requested tickets ≤ available seats → Confirmed
+
+    .Else if some seats are available → Witing List
+
+    .Else → No Seats Available
+
+7.Display the result
+
+8.Stop the program
+
+Code:
+
+total_seats = int(input("Enter total number of seats: "))
+booked_seats = int(input("Enter number of booked seats:"))
+requested_tickets = int(input("Enter number of tickets requested:"))
+     
+     
+available_seats = total_seats - booked_seats
+     
+     
+if requested_tickets <=available_seats:
+    print("Ticket Status:Confirmed")
+elif avilable_seats > 0:
+    print("Ticket Status: Waiting List")
+else:
+    print("Ticket Status : No Seats Avilable")
+        
+
+Output:
+       Enter total number of seats:100
+       Enter number of booked seats:98
+       Enter number of tickets requested:3
+       Ticket Status:Waiting List
+
+///////////////////////////////////////////////////////////
+
+**Python Programming Tasks:**
+
+Case Study Title:
+                 Print odd and even numbers both	
+                 
+                 
+USN:24BCAR0486, 24BCAR0535, 24BCAR0492
+
+Name:Ranga Janith Ram, Yashwanth R, Sai Kishan
+
+Algorithm:
+
+1. Start the program
+2. ask the user to enter a number to set the limit
+3. store this value in a varible
+4. start a loop that goes from 1 to the entered limit
+5. inside the loop, check the current number:
+    .if the number divided by 2has a remainder of 0, then it is even
+    .otherwise the number is odd
+6. print the number along with the loop
+7. stop the program
+
+
+Code:
+
+number = int(input("Enter the limit: "))
+
+print("List of Odd and even numbers")
+
+for i in range(1,n+1):
+    if (i%2 == 0):
+        print(i, "is Even")
+    else:
+        print(i, "is Odd")
+
+
+Output:
+
+Enter the upper limit: 10
+List of Odd and even numbers:
+1 is odd
+2 is Even
+3 is odd
+4 is Even
+5 is odd
+6 is even
+7 is odd
+8 is even
+9 is odd
+10 is even
+
+
+////////////////////////////////////////////////////////////////////////
+
+
+**Python Programming Tasks:**
+
+Case Study Title:	
+                 Percentage calculation function
+                 
+USN:24BCAR0486, 24BCAR0535, 24BCAR0492
+
+Name:Ranga Janith Ram, Yashwanth R, Sai Kishan
+
+Algorithm:
+step 1: start
+step 2: ask the user to enter the marks they obtained and store it
+step 3: ask the user to enter the total max marks and storw it
+step 4: calculate the percentage using (obtained marks/total marks)*100
+step 5: print the result
+step 6: stop
+
+
+Code:
+
+scord = float(input("Enter marks obtained: "))
+total_marks = float(input("Enter total max marks: "))
+
+percentage = (scored / total_marks) * 100
+
+print("Your percentage is: ", percentage)
+
+
+
+Output:
+
+Enter marks obtained: 450
+Enter total max marks: 600
+Your percentage is: 75.0
